@@ -6,5 +6,5 @@ You can translate Bitty by making a pull request to `website` or `discord` folde
 You can find more information in those folders.
 
 ## Thanks
-Thanks for helping in Bitty's development.
+Thanks for helping in Bitty's development. <br>
 All of the __Contributors__ can be found [here](https://github.com/Bitty-cf/Translations/graphs/contributors).
