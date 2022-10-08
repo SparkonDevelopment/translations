@@ -2,7 +2,7 @@
 Translate Bitty's services to your own language to make your, and other's experiences better.
 
 ## How do I start translating?
-You can translate Bitty by making a pull request to `website` or `discord` folder.
+You can translate Bitty by making a pull request to `website` or `discord` folder. <br>
 You can find more information in those folders.
 
 ## Thanks
