@@ -6,7 +6,7 @@ Edit the `en.json` and translate the values in it, <br>
 after that rename it to the translated [country iso code](https://countrycode.org/). (Example: en.json, de.json, cn.json)
 
 ### After translating
-After you made a pull request expect max `1 week` (because I'm busy recently) for response.
+After you made a pull request expect max `1 week` (because I'm busy recently) for response. <br>
 After that you will be in the [Contributors](https://github.com/Bitty-cf/Translations/graphs/contributors) list.
 
 ## Thanks
