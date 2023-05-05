@@ -1,0 +1,265 @@
+{
+    "# System messages":
+    "Used in system statuses, errors, etc.",
+
+    "system.processing": "Please wait...",
+    "system.initalization.error": "Error during processing, the system has not finished initalizing.",
+    "system.system.command.notfound": "Error during processing, command not found.",
+    "system.commands.outdated": "Warning, slash commands are outdated, errors may occur or commands may fail to execute.",
+    "system.subcommand.notfound": "Error, the specified subcommand has not found, if you belive this is an error please report this in a support ticket at our discord server.",
+    "system.modal.notfound": "Error during processing, the modal has expired or not found.",
+    "system.command.limited": "This command is limited to server staff `({{permission}})`.",
+    "system.command.admin": "This command is limited to the administrators of Bitty.",
+    "system.interaction.limited": "The interaction is limited to <@{{user}}>, create your own instance using `{{command}}`.",
+
+
+    "# About command":
+    "/about - commands.about",
+
+    "commands.about.name": "About",
+    "commands.about.description": "Displays metadata about the current version of Bitty.",
+    "commands.about.servers.title": "Servers",
+    "commands.about.servers.active": "active servers",
+    "commands.about.commands.title": "Commands",
+    "commands.about.commands.body": "commands",
+    "commands.about.requests.title": "Processed requests",
+    "commands.about.requests.body": "processed",
+    "commands.about.security": "Security Patch",
+
+
+    "# Avatar command":
+    "/avatar - commands.avatar",
+
+    "commands.avatar.name": "Avatar",
+    "commands.avatar.description": "Displays a user's avatar.",
+    "commands.avatar.args:user.description": "Enter a valid user.",
+    "commands.avatar.preview": "Avatar Preview",
+    
+
+    "# Clear command":
+    "/clear - commands.clear",
+
+    "commands.clear.name": "Clear",
+    "commands.clear.description": "Clears up to 100 messages at a time.",
+    "commands.clear.args:count.description": "Enter an amount for how much messages you want to delete.",
+    "commands.clear.error.parse": "Error, we failed to parse the count, please try again and only input numbers (1-100).",
+    "commands.clear.error.big": "Error, you can only clear 100 messages at a time.",
+    "commands.clear.error.small": "Error, you can only clear more than 1 messages at a time.",
+    "commands.clear.error.old": "Error, there are messages that are over 2 weeks old.",
+    "commands.clear.error.unknown": "Error, something went wrong while clearing the messages.",
+    "commands.clear.success": "Successfully deleted {{count}} messages.",
+
+
+    "# Contacts command":
+    "/contacts - commands.contacts",
+
+    "commands.contacts.name": "Contacts",
+    "commands.contacts.description": "Displays useful links and contacts.",
+    "commands.contacts.body": "Contact informations are listed below. Right click on link buttons to copy URLs.",
+    "commands.contacts.buttons:invite": "Invite Bitty",
+    "commands.contacts.buttons:website": "Visit our website",
+
+
+    "# Devedit command":
+    "/devedit - commands.devedit",
+
+    "commands.devedit.name": "Devedit",
+    "commands.devedit.description": "Debugging tool.",
+    "commands.devedit.sub:user.name": "User",
+    "commands.devedit.sub:user.description": "Debugging tool for type: user.",
+    "commands.devedit.sub:server.name": "Server",
+    "commands.devedit.sub:server.description": "Debugging tool for type: server.",
+    
+
+    "# Disable-PBT command":
+    "/disable-pbt - commands.disablepbt",
+
+    "commands.disablepbt.name": "Disable-PBT",
+    "commands.disablepbt.description": "Disable the usage of PBT Release.",
+    
+
+    "# Enable-PBT command":
+    "/enable-pbt - commands.enablepbt",
+
+    "commands.enablepbt.name": "Enable-PBT",
+    "commands.enablepbt.description": "Enable the usage of PBT Release.",
+    
+
+    "# Experiments command":
+    "/experiments - commands.experiments",
+
+    "commands.experiments.name": "Experiments",
+    "commands.experiments.description": "Enable or disable experiments for the current guild.",
+    
+
+    "# Help command":
+    "/help - commands.help",
+
+    "commands.help.name": "Help",
+    "commands.help.description": "Displays the list of commands.",
+    "commands.help.buttons:previous": "Previous",
+    "commands.help.buttons:next": "Next",
+    "commands.help.general": "General commands",
+    "commands.help.image": "Image commands",
+    "commands.help.utility": "Utility commands",
+    "commands.help.management": "Management commands",
+    
+
+    "# Lock command":
+    "/lock - commands.lock",
+
+    "commands.lock.name": "Lock",
+    "commands.lock.description": "Locks the specified channel for the specified role.",
+    "commands.lock.args:channel.description": "Enter a channel you want to lock.",
+    "commands.lock.args:role.description": "Enter a role you want to lock it for.",
+    "commands.lock.success.role": "Successfully locked the #{{channel}} channel for @{{role}}.",
+    "commands.lock.success.everyone": "Successfully locked the #{{channel}} channel for everyone.",
+    "commands.lock.error.role": "Error, failed to lock the channel <#{{channel}}> for the @{{role}} role, please check that Bitty has permissions to lock it.",
+    "commands.lock.error.everyone": "Error, failed to lock the channel <#{{channel}}> for everyone, please check that Bitty has permissions to lock it.",
+    
+
+    "# Logbit command":
+    "/logbit - commands.logbit",
+
+    "commands.logbit.name": "Logbit",
+    "commands.logbit.description": "Debugging tool.",
+    "commands.logbit.sub:errors.name": "Errors",
+    "commands.logbit.sub:errors.description": "Check error logs with it.",
+    
+
+    "# Ping command":
+    "/ping - commands.ping",
+
+    "commands.ping.name": "Ping",
+    "commands.ping.description": "Displays the bot's current latency.",
+    "commands.ping.latency": "The bot's current latency is {{latency}}ms.",
+    
+
+    "# Profile command":
+    "/profile - commands.profile",
+
+    "commands.profile.name": "Profile",
+    "commands.profile.description": "View another user's profile.",
+    "commands.profile.args:user.description": "Enter a valid user.",
+    "commands.profile.level": "Level",
+    "commands.profile.bio": "Bio",
+    "commands.profile.achievements": "Achievements",
+    "commands.profile.created": "Created",
+    "commands.profile.credits": "Credits",
+    
+
+    "# QRCode command":
+    "/qrcode - commands.qrcode",
+
+    "commands.qrcode.name": "QRCode",
+    "commands.qrcode.description": "Generates QRCodes works up to 1000 characters.",
+    "commands.qrcode.args:text.description": "Enter a text that you want to turn into a QRCode. (Can be url as well.)",
+    "commands.qrcode.error": "Error, the current limit for QRCode generation is 1000 characters.",
+    
+
+    "# ResetTheme command":
+    "/resettheme - commands.resettheme",
+
+    "commands.resettheme.name": "ResetTheme",
+    "commands.resettheme.description": "If the current theme is broken, reset it with this command.",
+    "commands.resettheme.success": "Reset theme to the `{{theme}}` theme.",
+    
+
+    "# ServerInfo command":
+    "/serverinfo - commands.serverinfo",
+
+    "commands.serverinfo.name": "ServerInfo",
+    "commands.serverinfo.description": "Displays metadata about the current server.",
+    "commands.serverinfo.theme": "Theme",
+    "commands.serverinfo.owner": "Owner",
+    "commands.serverinfo.members.title": "Members",
+    "commands.serverinfo.members.body": "members",
+    "commands.serverinfo.channels.title": "Channels",
+    "commands.serverinfo.channels.body": "channels",
+    "commands.serverinfo.roles.title": "Roles",
+    "commands.serverinfo.roles.body": "roles",
+    
+
+    "# ServiceStatus command":
+    "/servicestatus - commands.servicestatus",
+
+    "commands.servicestatus.name": "ServiceStatus",
+    "commands.servicestatus.description": "Displays the status of the current service instance.",
+    
+
+    "# Theme command":
+    "/themes - commands.themes",
+
+    "commands.themes.name": "Theme",
+    "commands.themes.description": "Switch a theme for the current server.",
+    "commands.themes.title": "Theme Preview",
+    "commands.themes.error": "This theme is currently selected, you cannot reapply it.",
+    
+
+    "# Ticket command":
+    "/ticket - commands.ticket",
+
+    "commands.ticket.name": "Ticket",
+    "commands.ticket.description": "Manage tickets using this command.",
+    "commands.ticket.sub:setup.name": "Setup",
+    "commands.ticket.sub:setup.description": "Change the settings of the ticketing system.",
+    "commands.ticket.sub:setup.args:channel.description": "Enter the ticketing channel, where you want to send the open ticket message.",
+    "commands.ticket.sub:setup.args:category.description": "Enter a category, where you want to be the new tickets created.",
+    "commands.ticket.sub:setup.args:role.description": "Enter your server's support role.",
+    "commands.ticket.sub:disable.name": "Disable",
+    "commands.ticket.sub:disable.description": "Disables the ticketing system.",
+    "commands.ticket.sub:open.name": "Open",
+    "commands.ticket.sub:open.description": "Open a ticket using this command.",
+    "commands.ticket.sub:open.args:reason.description": "Enter a reason for why you're opening the ticket, this will be seen by the server support.",
+    "commands.ticket.setup.error.channel": "The `channel` argument must be a text channel.",
+    "commands.ticket.setup.error.category": "The `category` argument must be a category.",
+    "commands.ticket.title": "Ticketing system",
+    "commands.ticket.setup.success": "Setup successfully finished, members now can open a ticket using the #{{channel}} channel or /ticket open command.",
+    "commands.ticket.disable.success": "Successfully disabled the ticketing system in your server, new tickets cannot be opened until re-setupping the ticketing system.",
+    
+
+    "# Timestamp command":
+    "/timestamp - commands.timestamp",
+
+    "commands.timestamp.name": "Timestamp",
+    "commands.timestamp.description": "Generates a timestamp with a specified date.",
+    "commands.timestamp.args:date.description": "Enter a valid date for your timestamp.",
+    "commands.timestamp.error": "Error, the specified date is invalid.",
+    "commands.timestamp.success": "Successfully generated your timestamp: {{timestamp}}.",
+    
+
+    "# Unlock command":
+    "/unlock - commands.unlock",
+
+    "commands.unlock.name": "Unlock",
+    "commands.unlock.description": "Unlocks the specified channel for the specified role.",
+    "commands.unlock.args:channel.description": "Enter a channel you want to unlock.",
+    "commands.unlock.args:role.description": "Enter a role you want to unlock it for.",
+    "commands.unlock.success.role": "Successfully unlocked the #{{channel}} channel for @{{role}}.",
+    "commands.unlock.success.everyone": "Successfully unlocked the #{{channel}} channel for everyone.",
+    "commands.unlock.error.role": "Error, failed to unlock the channel <#{{channel}}> for the @{{role}} role, please check that Bitty has permissions to unlock it.",
+    "commands.unlock.error.everyone": "Error, failed to unlock the channel <#{{channel}}> for everyone, please check that Bitty has permissions to unlock it.",
+    
+
+    "# Update-Bio command":
+    "/update-bio - commands.updatebio",
+
+    "commands.updatebio.name": "Update-Bio",
+    "commands.updatebio.description": "Update your bio (in your Bitty Profile) using this command, maximum 50 characters.",
+    "commands.updatebio.title": "Profile",
+    "commands.updatebio.success": "Successfully updated your profile bio.",
+    "commands.updatebio.modal.title": "Update your bio",
+    "commands.updatebio.modal.input": "Bio (max 50 characters)",
+    "commands.updatebio.modal.placeholder": "I'm {{username}}, 16 years old, I do this and this in my freetime...",
+
+
+    "# Welcomer command":
+    "/welcome - commands.welcome",
+
+    "commands.welcome.name": "Welcomer",
+    "commands.welcome.description": "Sends a welcome message when a new member joins.",
+    "commands.welcome.args:channel.description": "Enter a channel where you want the welcome messages to be displayed.",
+    "commands.welcome.title": "Welcome System",
+    "commands.welcome.disable.success": "Successfully turned off the welcome system.",
+    "commands.welcome.setup.success": "Successfully turned set the welcome channel to #{{channel}}."
+}
