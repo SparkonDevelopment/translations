@@ -4,7 +4,7 @@ Help improve Bitty's services by translating them into your own language.
 ## Getting Started with Translating
 To begin translating, fork this repository and duplicate the `en-US.json` file. Rename the duplicated file to the corresponding country code from the list below and translate its values.
 
-### Submitting Your Translations
+## Submitting Your Translations
 After you have completed translating, please submit a pull request. Response time should be within a week. If your translations are accepted, your name will be added to the [contributors](https://github.com/Bitty-cf/Translations/graphs/contributors) list. If your translation is 100% complete, the new language will also be added in the next update.
 
 ## Thank You
