@@ -1,10 +1,8 @@
-# Translate Bitty | CURRENTLY UNAVAILABLE
-Translate Bitty's services to your own language to make your, and other's experiences better.
+# Translate Bitty
+Help improve Bitty's services by translating it into your own language.
 
 ## How do I start translating?
-You can translate Bitty by making a pull request to `website` or `discord` folder. <br>
-You can find more information in those folders.
+To begin translating Bitty, make a pull request to the `website` or `discord` folder. More information can be found in those folders.
 
 ## Thanks
-Thanks for helping in Bitty's development. <br>
-All of the __Contributors__ can be found [here](https://github.com/Bitty-cf/Translations/graphs/contributors).
+Thank you for your contributions to Bitty's development! Check out the list of all the __Contributors__ [here](https://github.com/Bitty-cf/Translations/graphs/contributors).
