@@ -7,11 +7,11 @@ To begin translating, fork this repository and duplicate the `en-US.json` file. 
 ## Submitting Your Translations
 After you have completed translating, please submit a pull request. Response time should be within a week. If your translations are accepted, your name will be added to the [contributors](https://github.com/Bitty-cf/Translations/graphs/contributors) list. If your translation is 100% complete, the new language will also be added in the next update.
 
-# Placeholder and Note Usage
-## Placeholders
+## Placeholder and Note Usage
+### Placeholders
 You may come across values with placeholders indicated by double curly braces like this: `{{placeholder}}`. Please refrain from translating these, as they are used by the system to fill in dynamic content.
 
-## Notes
+### Notes
 Some of the values in the translation file may begin with a `#` symbol, like this example in JSON format:
 
 ```json
