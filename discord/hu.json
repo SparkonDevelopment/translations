@@ -1,0 +1,265 @@
+{
+    "# System messages":
+    "Used in system statuses, errors, etc.",
+
+    "system.processing": "Kérlek várj...",
+    "system.initalization.error": "Hiba, a rendszer még nem állt fel teljesen.",
+    "system.system.command.notfound": "Hiba, a parancs nem létezik.",
+    "system.commands.outdated": "Figyelmeztetés, a parancsok régiek, ezért a rendszer lehet hogy nem tudja hibák nélkül elvégezni a parancsokat.",
+    "system.subcommand.notfound": "Hiba, a megadott sub-parancs nem található. Ha úgy gondolja, hogy ez hiba, akkor kérjük, jelentse ezt a problémát egy támogatási jegyen keresztül a Discord szerverünkön.",
+    "system.modal.notfound": "Hiba a feldolgozás során, a dialógus lejárt vagy nem található.",
+    "system.command.limited": "Ez a parancs csak a szerver személyzetének engedélyezett (`{{permission}}`).",
+    "system.command.admin": "Ez a parancs csak a Bitty adminisztrátorai számára engedélyezett.",
+    "system.interaction.limited": "Az interakció korlátozva van <@{{user}}>-ra, hozz létre egy saját példányt a {{command}} parancs használatával.",
+
+
+    "# About command":
+    "/about - commands.about",
+
+    "commands.about.name": "Névjegy",
+    "commands.about.description": "Bitty aktuális verziójával kapcsolatos metaadatok megjelenítése.",
+    "commands.about.servers.title": "Szerverek",
+    "commands.about.servers.active": "aktív szerverek",
+    "commands.about.commands.title": "Parancsok",
+    "commands.about.commands.body": "parancsok",
+    "commands.about.requests.title": "Feldolgozott kérések",
+    "commands.about.requests.body": "feldolgozva",
+    "commands.about.security": "Biztonsági javítás",
+
+
+    "# Avatar command":
+    "/avatar - commands.avatar",
+
+    "commands.avatar.name": "Avatár",
+    "commands.avatar.description": "Egy felhasználó avatarjának megjelenítése.",
+    "commands.avatar.args:user.description": "Kérlek, adj meg egy érvényes felhasználót.",
+    "commands.avatar.preview": "Avatar-előnézet",
+    
+
+    "# Clear command":
+    "/clear - commands.clear",
+
+    "commands.clear.name": "Tisztítás",
+    "commands.clear.description": "Akár 100 üzenet törlése egyszerre.",
+    "commands.clear.args:count.description": "Add meg, hogy mennyi üzenetet szeretnél törölni.",
+    "commands.clear.error.parse": "Hiba, nem sikerült értelmezni a mennyiséget. Kérjük, próbáld újra, és csak számokat adj meg (1-100 között).",
+    "commands.clear.error.big": "Hiba, egyszerre csak 100 üzenetet lehet törölni.",
+    "commands.clear.error.small": "Hiba, egyszerre csak 1-nél több üzenet törölhető.",
+    "commands.clear.error.old": "Hiba, vannak 2 hétnél régebbi üzenetek.",
+    "commands.clear.error.unknown": "Hiba, valami probléma merült fel az üzenetek törlése közben.",
+    "commands.clear.success": "{{count}} üzenet sikeresen törölve.",
+
+
+    "# Contacts command":
+    "/contacts - commands.contacts",
+
+    "commands.contacts.name": "Elérhetőségek",
+    "commands.contacts.description": "Hasznos linkek és kapcsolatok megjelenítése.",
+    "commands.contacts.body": "Az elérhetőségi információk az alábbiakban találhatók. Az URL-ek másolásához kattints a jobb gombbal a link gombra.",
+    "commands.contacts.buttons:invite": "Bitty meghívása",
+    "commands.contacts.buttons:website": "Látogasson el a weboldalunkra",
+
+
+    "# Devedit command":
+    "/devedit - commands.devedit",
+
+    "commands.devedit.name": "Devedit",
+    "commands.devedit.description": "Debugging tool.",
+    "commands.devedit.sub:user.name": "User",
+    "commands.devedit.sub:user.description": "Debugging tool for type: user.",
+    "commands.devedit.sub:server.name": "Server",
+    "commands.devedit.sub:server.description": "Debugging tool for type: server.",
+    
+
+    "# Disable-PBT command":
+    "/disable-pbt - commands.disablepbt",
+
+    "commands.disablepbt.name": "Disable-PBT",
+    "commands.disablepbt.description": "A PBT Kiadás használatának letiltása.",
+    
+
+    "# Enable-PBT command":
+    "/enable-pbt - commands.enablepbt",
+
+    "commands.enablepbt.name": "Enable-PBT",
+    "commands.enablepbt.description": "A PBT Kiadás használatának engedélyezése.",
+    
+
+    "# Experiments command":
+    "/experiments - commands.experiments",
+
+    "commands.experiments.name": "Kísérletek",
+    "commands.experiments.description": "Kísérleteknek engedélyezése vagy letiltása a jelenlegi szerveren.",
+    
+
+    "# Help command":
+    "/help - commands.help",
+
+    "commands.help.name": "Segítség",
+    "commands.help.description": "A parancsok listájának megjelenítése.",
+    "commands.help.buttons:previous": "Előző oldal",
+    "commands.help.buttons:next": "Következő oldal",
+    "commands.help.general": "Általános parancsok",
+    "commands.help.image": "Képes parancsok",
+    "commands.help.utility": "Segédeszközi parancsok",
+    "commands.help.management": "Kezelői parancsok",
+    
+
+    "# Lock command":
+    "/lock - commands.lock",
+
+    "commands.lock.name": "Zárolás",
+    "commands.lock.description": "A megadott szerep számára lezárja a megadott csatornát.",
+    "commands.lock.args:channel.description": "Add meg a csatornát, amit le szeretnél zárni.",
+    "commands.lock.args:role.description": "Add meg a szerepet, amely számára le szeretnéd zárni.",
+    "commands.lock.success.role": "Sikeresen lezártad a #{{channel}} csatornát a @{{role}} szerep számára.",
+    "commands.lock.success.everyone": "Sikeresen lezártad a #{{channel}} csatornát mindenkinek.",
+    "commands.lock.error.role": "Hiba történt, nem sikerült lezárni a <#{{channel}}> csatornát a @{{role}} szerep számára. Ellenőrizd, hogy a Bitty-nek megvannak-e a megfelelő engedélyei ehhez.",
+    "commands.lock.error.everyone": "Hiba történt, nem sikerült lezárni a <#{{channel}}> csatornát mindenkinek. Ellenőrizd, hogy a Bitty-nek megvannak-e a megfelelő engedélyei ehhez.",
+    
+
+    "# Logbit command":
+    "/logbit - commands.logbit",
+
+    "commands.logbit.name": "Logbit",
+    "commands.logbit.description": "Debugging tool.",
+    "commands.logbit.sub:errors.name": "Errors",
+    "commands.logbit.sub:errors.description": "Check error logs with it.",
+    
+
+    "# Ping command":
+    "/ping - commands.ping",
+
+    "commands.ping.name": "Válaszidő",
+    "commands.ping.description": "Megjeleníti a bot jelenlegi késleltetését.",
+    "commands.ping.latency": "A bot jelenlegi késleltetése {{latency}}ms.",
+    
+
+    "# Profile command":
+    "/profile - commands.profile",
+
+    "commands.profile.name": "Profil",
+    "commands.profile.description": "Egy másik felhasználó profiljának megtekintése.",
+    "commands.profile.args:user.description": "Adj meg egy érvényes felhasználót.",
+    "commands.profile.level": "Szint",
+    "commands.profile.bio": "Bemutatkozás",
+    "commands.profile.achievements": "Eredmények",
+    "commands.profile.created": "Létrehozva",
+    "commands.profile.credits": "Kreditek",
+    
+
+    "# QRCode command":
+    "/qrcode - commands.qrcode",
+
+    "commands.qrcode.name": "QRKód",
+    "commands.qrcode.description": "QRCodes generálása akár 1000 karakterig.",
+    "commands.qrcode.args:text.description": "Írja be a szöveget, amit QR-kóddá szeretne alakítani. (Lehet URL is.)",
+    "commands.qrcode.error": "Hiba, a QR-kód generálásának jelenlegi limitje 1000 karakter.",
+    
+
+    "# ResetTheme command":
+    "/resettheme - commands.resettheme",
+
+    "commands.resettheme.name": "ResetTheme",
+    "commands.resettheme.description": "Ha a jelenlegi téma meghibásodott, akkor ezzel a parancsal állíthatod vissza.",
+    "commands.resettheme.success": "Vissza állítottuk a jelenlegi témát, a `{{theme}}` témárá.",
+    
+
+    "# ServerInfo command":
+    "/serverinfo - commands.serverinfo",
+
+    "commands.serverinfo.name": "Szerver-Infó",
+    "commands.serverinfo.description": "Megjeleníti a jelenlegi szerver metaadatait.",
+    "commands.serverinfo.theme": "Téma",
+    "commands.serverinfo.owner": "Tulajdonos",
+    "commands.serverinfo.members.title": "Tagok",
+    "commands.serverinfo.members.body": "tag van",
+    "commands.serverinfo.channels.title": "Csatornák",
+    "commands.serverinfo.channels.body": "csatorna van",
+    "commands.serverinfo.roles.title": "Szerepek",
+    "commands.serverinfo.roles.body": "szerep van",
+    
+
+    "# ServiceStatus command":
+    "/servicestatus - commands.servicestatus",
+
+    "commands.servicestatus.name": "ServiceStatus",
+    "commands.servicestatus.description": "Displays the status of the current service instance.",
+    
+
+    "# Theme command":
+    "/themes - commands.themes",
+
+    "commands.themes.name": "Téma",
+    "commands.themes.description": "Témaváltás a jelenlegi szerveren.",
+    "commands.themes.title": "Téma-előnézet",
+    "commands.themes.error": "Ez a téma jelenleg kiválasztva van, nem tudod újra alkalmazni.",
+    
+
+    "# Ticket command":
+    "/ticket - commands.ticket",
+
+    "commands.ticket.name": "Jegy",
+    "commands.ticket.description": "Kezelje a jegyeket ezzel a parancsal.",
+    "commands.ticket.sub:setup.name": "Beállítás",
+    "commands.ticket.sub:setup.description": "Változtassa meg a jegykezelő rendszer beállításait.",
+    "commands.ticket.sub:setup.args:channel.description": "Írja be a jegykezelési csatornát, ahova szeretné elküldeni a megnyitott jegy üzenetét.",
+    "commands.ticket.sub:setup.args:category.description": "Adja meg a kategóriát, amelyben szeretné létrehozni az új jegyeket.",
+    "commands.ticket.sub:setup.args:role.description": "Adja meg a szerver támogatási szerepét.",
+    "commands.ticket.sub:disable.name": "Kikapcsolás",
+    "commands.ticket.sub:disable.description": "Kikapcsolja a jegykezelő rendszert.",
+    "commands.ticket.sub:open.name": "Új",
+    "commands.ticket.sub:open.description": "Nyisson meg egy jegyet ezzel a parancsal.",
+    "commands.ticket.sub:open.args:reason.description": "Adja meg az indokot, hogy miért nyitja meg a jegyet. Ez a szerver tamógató által látható lesz.",
+    "commands.ticket.setup.error.channel": "A `channel` argumentumnak egy szövegcsatornának kell lennie.",
+    "commands.ticket.setup.error.category": "A `category` argumentumnak egy kategóriának kell lennie.",
+    "commands.ticket.title": "Jegykezelő rendszer",
+    "commands.ticket.setup.success": "A beállítás sikeresen befejeződött, a tagok most már nyithatnak jegyet a #{{channel}} csatorna vagy a /ticket open parancs használatával.",
+    "commands.ticket.disable.success": "Sikeresen kikapcsolta a jegykezelő rendszert a szerveren. Új jegyek nem nyithatók meg, amíg újra be nem állítja a jegykezelő rendszert.",
+    
+
+    "# Timestamp command":
+    "/timestamp - commands.timestamp",
+
+    "commands.timestamp.name": "Időbélyeg",
+    "commands.timestamp.description": "Generál egy időbélyeget a megadott dátummal.",
+    "commands.timestamp.args:date.description": "Adjon meg egy érvényes dátumot az időbélyeghez.",
+    "commands.timestamp.error": "Hiba, a megadott dátum érvénytelen.",
+    "commands.timestamp.success": "Sikeresen generáltam az időbélyeget: {{timestamp}}.",
+    
+
+    "# Unlock command":
+    "/unlock - commands.unlock",
+
+    "commands.unlock.name": "Feloldás",
+    "commands.unlock.description": "Feloldja a megadott csatornát a megadott szerep számára.",
+    "commands.unlock.args:channel.description": "Adja meg a csatornát, amelyet fel szeretne oldani.",
+    "commands.unlock.args:role.description": "Adja meg a szerepet, amely számára fel szeretné oldani.",
+    "commands.unlock.success.role": "Sikeresen feloldottam a #{{channel}} csatornát a @{{role}} számára.",
+    "commands.unlock.success.everyone": "Sikeresen feloldottam a #{{channel}} csatornát mindenki számára.",
+    "commands.unlock.error.role": "Hiba, nem sikerült feloldani a <#{{channel}}> csatornát a @{{role}} szerep számára. Kérjük, ellenőrizze, hogy a Bitty rendelkezik-e engedélyekkel a feloldáshoz.",
+    "commands.unlock.error.everyone": "Hiba, nem sikerült feloldani a <#{{channel}}> csatornát mindenki számára. Kérjük, ellenőrizze, hogy a Bitty rendelkezik-e engedélyekkel a feloldáshoz.",
+    
+
+    "# Update-Bio command":
+    "/update-bio - commands.updatebio",
+
+    "commands.updatebio.name": "Bemutatkozás-Frissítése",
+    "commands.updatebio.description": "Frissítse a bemutatkozását (a Bitty profiljában), legfeljebb 50 karakter hosszúságban.",
+    "commands.updatebio.title": "Profil",
+    "commands.updatebio.success": "Sikeresen frissítettem a profil bemutatkozását.",
+    "commands.updatebio.modal.title": "Bemutatkozás frissítése",
+    "commands.updatebio.modal.input": "Bemutatkozás (legfeljebb 50 karakter)",
+    "commands.updatebio.modal.placeholder": "Én {{username}} vagyok, 16 éves, szabadidőmben ezt és ezt csinálom...",
+
+
+    "# Welcomer command":
+    "/welcome - commands.welcome",
+
+    "commands.welcome.name": "Üdvözlő",
+    "commands.welcome.description": "Küld egy üdvözlő üzenetet, amikor egy új tag csatlakozik.",
+    "commands.welcome.args:channel.description": "Adja meg azt a csatornát, ahol az üdvözlő üzeneteket meg szeretné küldeni.",
+    "commands.welcome.title": "Üdvözlő rendszer",
+    "commands.welcome.disable.success": "Sikeresen kikapcsoltam az üdvözlő rendszert.",
+    "commands.welcome.setup.success": "Sikeresen beállítottam az üdvözlő csatornát: #{{channel}}."
+}
