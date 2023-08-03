@@ -262,5 +262,15 @@
     "commands.welcome.args:channel.description": "Enter a channel where you want the welcome messages to be displayed.",
     "commands.welcome.title": "Welcome System",
     "commands.welcome.disable.success": "Successfully turned off the welcome system.",
-    "commands.welcome.setup.success": "Successfully turned set the welcome channel to #{{channel}}."
+    "commands.welcome.setup.success": "Successfully turned set the welcome channel to #{{channel}}.",
+
+    "# Leaver command":
+    "/leave - commands.leave",
+
+    "commands.leave.name": "Leaver",
+    "commands.leave.description": "Sends a leave message when a member leaves.",
+    "commands.leave.args:channel.description": "Enter a channel where you want the leave messages to be displayed.",
+    "commands.leave.title": "Leave System",
+    "commands.leave.disable.success": "Successfully turned off the leave system.",
+    "commands.leave.setup.success": "Successfully turned set the leave channel to #{{channel}}."
 }

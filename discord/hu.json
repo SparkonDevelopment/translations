@@ -258,9 +258,19 @@
     "/welcome - commands.welcome",
 
     "commands.welcome.name": "Üdvözlő",
-    "commands.welcome.description": "Küld egy üdvözlő üzenetet, amikor egy új tag csatlakozik.",
+    "commands.welcome.description": "Küldj egy üdvözlő üzenetet, amikor egy új tag csatlakozik.",
     "commands.welcome.args:channel.description": "Adja meg azt a csatornát, ahol az üdvözlő üzeneteket meg szeretné küldeni.",
     "commands.welcome.title": "Üdvözlő rendszer",
     "commands.welcome.disable.success": "Sikeresen kikapcsoltam az üdvözlő rendszert.",
-    "commands.welcome.setup.success": "Sikeresen beállítottam az üdvözlő csatornát: #{{channel}}."
+    "commands.welcome.setup.success": "Sikeresen beállítottam az üdvözlő csatornát: #{{channel}}.",
+
+    "# Leaver command":
+    "/leave - commands.leave",
+
+    "commands.leave.name": "Kilépő",
+    "commands.leave.description": "Küldj egy kilépő üzenetet, amikor egy tag kilép.",
+    "commands.leave.args:channel.description": "Adja meg azt a csatornát, ahol az kilépő üzeneteket meg szeretné küldeni.",
+    "commands.leave.title": "Kilépő rendszer",
+    "commands.leave.disable.success": "Sikeresen kikapcsoltam az kilépő rendszert.",
+    "commands.leave.setup.success": "Sikeresen beállítottam az kilépő csatornát: #{{channel}}."
 }
