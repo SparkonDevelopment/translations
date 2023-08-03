@@ -10,6 +10,7 @@
     "system.modal.notfound": "Hiba a feldolgozás során, a dialógus lejárt vagy nem található.",
     "system.command.limited": "Ez a parancs csak a szerver személyzetének engedélyezett (`{{permission}}`).",
     "system.command.admin": "Ez a parancs csak a Bitty adminisztrátorai számára engedélyezett.",
+    "system.command.error": "Hiba, kérjük jelentse ezt a Discord szerverünkön található támogatási jegyrendszeren keresztül.\n**Hibakód:** `{{hash}}`",
     "system.interaction.limited": "Az interakció korlátozva van <@{{user}}>-ra, hozz létre egy saját példányt a {{command}} parancs használatával.",
 
 

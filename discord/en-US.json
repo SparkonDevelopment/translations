@@ -10,6 +10,7 @@
     "system.modal.notfound": "Error during processing, the modal has expired or not found.",
     "system.command.limited": "This command is limited to server staff `({{permission}})`.",
     "system.command.admin": "This command is limited to the administrators of Bitty.",
+    "system.command.error": "**Error during processing**, please report this using a support ticket in our discord server.\n**Error code:** `{{hash}}`",
     "system.interaction.limited": "The interaction is limited to <@{{user}}>, create your own instance using `{{command}}`.",
 
 
