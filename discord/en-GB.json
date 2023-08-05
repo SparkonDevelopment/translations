@@ -12,6 +12,7 @@
     "system.command.admin": "This command is limited to the administrators of Bitty.",
     "system.command.error": "**Error during processing**, please report this using a support ticket in our discord server.\n**Error code:** `{{hash}}`",
     "system.interaction.limited": "The interaction is limited to <@{{user}}>, create your own instance using `{{command}}`.",
+    "system.bot.nopermission": "Oops, looks like Bitty doesn't have permission to execute this command properly, please allow Bitty the following permissions: `{{permissions}}`.",
 
 
     "# About command":

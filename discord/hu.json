@@ -12,6 +12,7 @@
     "system.command.admin": "Ez a parancs csak a Bitty adminisztrátorai számára engedélyezett.",
     "system.command.error": "Hiba, kérjük jelentse ezt a Discord szerverünkön található támogatási jegyrendszeren keresztül.\n**Hibakód:** `{{hash}}`",
     "system.interaction.limited": "Az interakció korlátozva van <@{{user}}>-ra, hozz létre egy saját példányt a {{command}} parancs használatával.",
+    "system.bot.nopermission": "Oops, úgy tűnik, hogy Bittynek nincs engedélye a parancs megfelelő végrehajtására, kérjük, engedélyezze Bitty számára a következő engedélyeket: `{{permissions}}`.",
 
 
     "# About command":
