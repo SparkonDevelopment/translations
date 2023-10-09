@@ -2,8 +2,8 @@
 {
     "# System messages":
     "Used in system statuses, errors, etc.",
-
-    "system.processing": "കാത്തിരിക്കൂ....",
+    
+  "system.processing": "കാത്തിരിക്കൂ....",
   "system.initalization.error": "സിസ്റ്റം ഇനിഷ്യലൈസേഷൻ പൂർത്തിയാക്കിയില്ല.",
   "system.system.command.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, ചോദ്യം നിലവിലില്ല",
   "system.commands.outdated": "മുന്നിൽ പ്രയോഗിക്കുന്ന സ്ലാഷ് കമാൻഡുകൾ പഴയാണ്, പിശകുകൾ സംഭവിക്കാം അല്ലെങ്കിൽ കമാൻഡുകൾ പ്രവർത്തിക്കാതിരിക്കാം.",
@@ -18,25 +18,25 @@
 
     "# About command":
     "/about - commands.about",
-
-    "commands.about.name": "About",
-    "commands.about.description": "Displays metadata about the current version of Bitty.",
-    "commands.about.servers.title": "Servers",
-    "commands.about.servers.active": "active servers",
-    "commands.about.commands.title": "Commands",
-    "commands.about.commands.body": "commands",
-    "commands.about.requests.title": "Processed requests",
-    "commands.about.requests.body": "processed",
-    "commands.about.security": "Security Patch",
+    
+"commands.about.name": "കുറിപ്പ്",
+"commands.about.description": "ബിറ്റിയുടെ നിലവിലെ പതിപ്പിനെക്കുറിച്ച് മെറ്റാഡേറ്റ പ്രദര്ശിപ്പിക്കുന്നു.",
+"commands.about.servers.title": "സെർവർകൾ",
+"commands.about.servers.active": "സജീവ സെർവർകൾ",
+"commands.about.commands.title": "കമാൻഡുകൾ",
+"commands.about.commands.body": "കമാൻഡുകൾ",
+"commands.about.requests.title": "പ്രോസസ്സ് ചെയ്ത അഭ്യർത്ഥനകൾ",
+"commands.about.requests.body": "പ്രോസസ്സ് ചെയ്തു",
+"commands.about.security": "സുരക്ഷാ പാച്ച്"
 
 
     "# Avatar command":
     "/avatar - commands.avatar",
 
-    "commands.avatar.name": "Avatar",
-    "commands.avatar.description": "Displays a user's avatar.",
-    "commands.avatar.args:user.description": "Enter a valid user.",
-    "commands.avatar.preview": "Avatar Preview",
+   "commands.avatar.name": "അവതാർ",
+    "commands.avatar.description": "ഉപയോക്താവിന്റെ അവതാർ പ്രദർശിപ്പിക്കുന്നു.",
+    "commands.avatar.args:user.description": "ഒരു സാധുവായ ഉപയോക്താവ് നൽകുക.",
+    "commands.avatar.preview": "അവതാർ പ്രിവ്യൂ"
     
 
     "# Clear command":
