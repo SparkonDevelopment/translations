@@ -68,26 +68,26 @@
     "# Devedit command":
     "/devedit - commands.devedit",
 
-    "commands.devedit.name": "Devedit",
-    "commands.devedit.description": "Debugging tool.",
-    "commands.devedit.sub:user.name": "User",
-    "commands.devedit.sub:user.description": "Debugging tool for type: user.",
-    "commands.devedit.sub:server.name": "Server",
-    "commands.devedit.sub:server.description": "Debugging tool for type: server.",
-    
+    "commands.devedit.name": "ഡെവെഡിറ്റ്",
+    "commands.devedit.description": "ഡീബഗ്ഗിംഗ് ഉപകരണം.",
+    "commands.devedit.sub:user.name": "ഉപയോക്താ൵",
+    "commands.devedit.sub:user.description": "ഇനിപ്പം: ഉപയോക്താവിനെക്കുറിച്ച് ഡീബഗ്ഗിംഗ് ഉപകരണം.",
+    "commands.devedit.sub:server.name": "സെർവർ",
+    "commands.devedit.sub:server.description": "ഇനിപ്പം: സെർവർകൾക്കുള്ള ഡീബഗ്ഗിംഗ് ഉപകരണം."
 
     "# Disable-PBT command":
     "/disable-pbt - commands.disablepbt",
 
-    "commands.disablepbt.name": "Disable-PBT",
-    "commands.disablepbt.description": "Disable the usage of PBT Release.",
+    "commands.disablepbt.name": "പിബിടി പ്രസാരം അടയ്ക്കുക",
+    "commands.disablepbt.description": "PBT പ്രസാരത്തിന്റെ ഉപയോഗം നിർമ്മിക്കുന്നത് അടയ്ക്കുന്നു.",
+
     
 
     "# Enable-PBT command":
     "/enable-pbt - commands.enablepbt",
-
-    "commands.enablepbt.name": "Enable-PBT",
-    "commands.enablepbt.description": "Enable the usage of PBT Release.",
+    
+"commands.experiments.name": "പരീക്ഷണങ്ങൾ",
+"commands.experiments.description": "നിലവിലെ ഗിൽഡ് സംഘത്തിനായി പരീക്ഷണങ്ങൾ സജീവമാക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക."
     
 
     "# Experiments command":
