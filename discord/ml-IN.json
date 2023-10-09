@@ -3,37 +3,37 @@
     "# System messages":
     "Used in system statuses, errors, etc.",
     
-  "system.processing": "കാത്തിരിക്കൂ....",
-  "system.initalization.error": "സിസ്റ്റം ഇനിഷ്യലൈസേഷൻ പൂർത്തിയാക്കിയില്ല.",
-  "system.system.command.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, ചോദ്യം നിലവിലില്ല",
-  "system.commands.outdated": "മുന്നിൽ പ്രയോഗിക്കുന്ന സ്ലാഷ് കമാൻഡുകൾ പഴയാണ്, പിശകുകൾ സംഭവിക്കാം അല്ലെങ്കിൽ കമാൻഡുകൾ പ്രവർത്തിക്കാതിരിക്കാം.",
-  "system.subcommand.notfound": "പിശക്, നൽകിയ ഉപ-കമാൻഡ് കണ്ടെത്തിയില്ല, ഇത് ഒരു പിശകാണെന്നു വിശ്വസിക്കുന്നുണ്ടെങ്കിൽ ദയവായി ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.",
-  "system.modal.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, മോഡൽ കാണാനാകാത്തതോ കാണാനാകാത്തതോ.",
-  "system.command.limited": "ഈ കമാൻഡ് സെർവർ സ്ഥാപന സ്റ്റാഫ് മാത്രമാകുന്നു `({{അനുമതി}})`.",
-  "system.command.admin": "ഈ കമാൻഡ് ബിറ്റിയുടെ അഡ്മിനിസ്‌ട്രേറ്റേഴ്സിന് മാത്രമാകുന്നു.",
-  "system.command.error": "**പ്രോസസ്സിംഗ് സമയത്ത് പിശക്**, ദയവായി ഇത് ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.\n**പിശക് കോഡ്:** `{{ഹാഷ്}}`",
-  "system.interaction.limited": "ഈ ഇൻററാക്‌ഷൻ <@{{ഉപയോക്താവ്}}>-ക്ക് മാത്രമാണ് എന്നും, നിങ്ങൾക്ക് `{{കമാൻഡ്}}` ഉപയോഗിക്കാൻ സ്വന്തമാക്കാൻ അനുവദിക്കുന്നു.",
-  "system.bot.nopermission": "ഉപയോക്താവ്, ബിറ്റിക്ക് ഈ കമാൻ",
+    "system.processing": "കാത്തിരിക്കൂ....",
+    "system.initalization.error": "സിസ്റ്റം ഇനിഷ്യലൈസേഷൻ പൂർത്തിയാക്കിയില്ല.",
+    "system.system.command.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, ചോദ്യം നിലവിലില്ല",
+    "system.commands.outdated": "മുന്നിൽ പ്രയോഗിക്കുന്ന സ്ലാഷ് കമാൻഡുകൾ പഴയാണ്, പിശകുകൾ സംഭവിക്കാം അല്ലെങ്കിൽ കമാൻഡുകൾ പ്രവർത്തിക്കാതിരിക്കാം.",
+    "system.subcommand.notfound": "പിശക്, നൽകിയ ഉപ-കമാൻഡ് കണ്ടെത്തിയില്ല, ഇത് ഒരു പിശകാണെന്നു വിശ്വസിക്കുന്നുണ്ടെങ്കിൽ ദയവായി ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.",
+    "system.modal.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, മോഡൽ കാണാനാകാത്തതോ കാണാനാകാത്തതോ.",
+    "system.command.limited": "ഈ കമാൻഡ് സെർവർ സ്ഥാപന സ്റ്റാഫ് മാത്രമാകുന്നു `({{അനുമതി}})`.",
+    "system.command.admin": "ഈ കമാൻഡ് ബിറ്റിയുടെ അഡ്മിനിസ്‌ട്രേറ്റേഴ്സിന് മാത്രമാകുന്നു.",
+    "system.command.error": "**പ്രോസസ്സിംഗ് സമയത്ത് പിശക്**, ദയവായി ഇത് ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.\n**പിശക് കോഡ്:** `{{ഹാഷ്}}`",
+    "system.interaction.limited": "ഈ ഇൻററാക്‌ഷൻ <@{{ഉപയോക്താവ്}}>-ക്ക് മാത്രമാണ് എന്നും, നിങ്ങൾക്ക് `{{കമാൻഡ്}}` ഉപയോഗിക്കാൻ സ്വന്തമാക്കാൻ അനുവദിക്കുന്നു.",
+    "system.bot.nopermission": "ഉപയോക്താവ്, ബിറ്റിക്ക് ഈ കമാൻ",
 
 
     "# About command":
     "/about - commands.about",
     
-"commands.about.name": "കുറിപ്പ്",
-"commands.about.description": "ബിറ്റിയുടെ നിലവിലെ പതിപ്പിനെക്കുറിച്ച് മെറ്റാഡേറ്റ പ്രദര്ശിപ്പിക്കുന്നു.",
-"commands.about.servers.title": "സെർവർകൾ",
-"commands.about.servers.active": "സജീവ സെർവർകൾ",
-"commands.about.commands.title": "കമാൻഡുകൾ",
-"commands.about.commands.body": "കമാൻഡുകൾ",
-"commands.about.requests.title": "പ്രോസസ്സ് ചെയ്ത അഭ്യർത്ഥനകൾ",
-"commands.about.requests.body": "പ്രോസസ്സ് ചെയ്തു",
-"commands.about.security": "സുരക്ഷാ പാച്ച്"
+    "commands.about.name": "കുറിപ്പ്",
+    "commands.about.description": "ബിറ്റിയുടെ നിലവിലെ പതിപ്പിനെക്കുറിച്ച് മെറ്റാഡേറ്റ പ്രദര്ശിപ്പിക്കുന്നു.",
+    "commands.about.servers.title": "സെർവർകൾ",
+    "commands.about.servers.active": "സജീവ സെർവർകൾ",
+    "commands.about.commands.title": "കമാൻഡുകൾ",
+    "commands.about.commands.body": "കമാൻഡുകൾ",
+    "commands.about.requests.title": "പ്രോസസ്സ് ചെയ്ത അഭ്യർത്ഥനകൾ",
+    "commands.about.requests.body": "പ്രോസസ്സ് ചെയ്തു",
+    "commands.about.security": "സുരക്ഷാ പാച്ച്"
 
 
     "# Avatar command":
     "/avatar - commands.avatar",
-
-   "commands.avatar.name": "അവതാർ",
+    
+    "commands.avatar.name": "അവതാർ",
     "commands.avatar.description": "ഉപയോക്താവിന്റെ അവതാർ പ്രദർശിപ്പിക്കുന്നു.",
     "commands.avatar.args:user.description": "ഒരു സാധുവായ ഉപയോക്താവ് നൽകുക.",
     "commands.avatar.preview": "അവതാർ പ്രിവ്യൂ"
@@ -42,25 +42,27 @@
     "# Clear command":
     "/clear - commands.clear",
 
-    "commands.clear.name": "Clear",
-    "commands.clear.description": "Clears up to 100 messages at a time.",
-    "commands.clear.args:count.description": "Enter an amount for how much messages you want to delete.",
-    "commands.clear.error.parse": "Error, we failed to parse the count, please try again and only input numbers (1-100).",
-    "commands.clear.error.big": "Error, you can only clear 100 messages at a time.",
-    "commands.clear.error.small": "Error, you can only clear more than 1 messages at a time.",
-    "commands.clear.error.old": "Error, there are messages that are over 2 weeks old.",
-    "commands.clear.error.unknown": "Error, something went wrong while clearing the messages.",
-    "commands.clear.success": "Successfully deleted {{count}} messages.",
+    "commands.clear.name": "ശുദ്ധി",
+    "commands.clear.description": "ഒരു സമയത്ത് 100 സന്ദേശങ്ങൾ ശുദ്ധിച്ചിരിക്കുന്നു.",
+    "commands.clear.args:count.description": "നിങ്ങൾ എത്ര സന്ദേശങ്ങൾ മായ്ക്കണം എന്ന് ഒരു അളവ് നൽകുക.",
+    "commands.clear.error.parse": "പിശക്, ഞങ്ങൾ അളവ് വായിക്കാൻ കഴിയാത്തതാക്കി, ദയവായി മാത്രമെ സംഖ്യകൾ (1-100) നൽകുക.",
+    "commands.clear.error.big": "പിശക്, നിങ്ങൾ 100 സന്ദേശങ്ങൾ മാത്രമേ ഒരു സമയത്ത് ശുദ്ധിക്കാനുള്ളു.",
+    "commands.clear.error.small": "പിശക്, നിങ്ങൾ 1-ന് കൂടുതൽ സന്ദേശങ്ങൾ മാത്രമേ ശുദ്ധിക്കാനുള്ളു.",
+    "commands.clear.error.old": "പിശക്, 2 ആഴ്ച്ചകളുടെയും പഴയ സന്ദേശങ്ങൾ ഉണ്ടായിരിക്കുന്നു.",
+    "commands.clear.error.unknown": "പിശക്, സന്ദേശങ്ങൾ ശുദ്ധിച്ചതിലേക്ക് എന്തൊക്കെ പോയിക്കൊണ്ടുകൊണ്ട് പോയി.",
+    "commands.clear.success": "{{count}} സന്ദേശങ്ങൾ വശിഷ്ടമാക്കി."
+
 
 
     "# Contacts command":
     "/contacts - commands.contacts",
 
-    "commands.contacts.name": "Contacts",
-    "commands.contacts.description": "Displays useful links and contacts.",
-    "commands.contacts.body": "Contact informations are listed below. Right click on link buttons to copy URLs.",
-    "commands.contacts.buttons:invite": "Invite Bitty",
-    "commands.contacts.buttons:website": "Visit our website",
+    "commands.contacts.name": "കോൺടാക്റ്റുകൾ",
+    "commands.contacts.description": "ഉപയോഗപ്പെടുന്ന ലിങ്കുകൾ കാണിക്കുന്നു.",
+    "commands.contacts.body": "കോൺടാക്റ്റ് വിവരങ്ങൾ താഴെ പട്ടികയായി കാണിക്കാൻ കഴിയുന്നു. URL-കൾ പകരം ക്ലിക്ക് ചെയ്യുന്നത് വലതുമായിരിക്കും.",
+    "commands.contacts.buttons:invite": "ബിറ്റി ക്ഷണിക്കുക",
+    "commands.contacts.buttons:website": "ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക"
+
 
 
     "# Devedit command":
