@@ -1,0 +1,296 @@
+
+{
+    "# System messages":
+    "Used in system statuses, errors, etc.",
+    
+    "system.processing": "കാത്തിരിക്കൂ....",
+    "system.initalization.error": "സിസ്റ്റം ഇനിഷ്യലൈസേഷൻ പൂർത്തിയാക്കിയില്ല.",
+    "system.system.command.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, ചോദ്യം നിലവിലില്ല",
+    "system.commands.outdated": "മുന്നിൽ പ്രയോഗിക്കുന്ന സ്ലാഷ് കമാൻഡുകൾ പഴയാണ്, പിശകുകൾ സംഭവിക്കാം അല്ലെങ്കിൽ കമാൻഡുകൾ പ്രവർത്തിക്കാതിരിക്കാം.",
+    "system.subcommand.notfound": "പിശക്, നൽകിയ ഉപ-കമാൻഡ് കണ്ടെത്തിയില്ല, ഇത് ഒരു പിശകാണെന്നു വിശ്വസിക്കുന്നുണ്ടെങ്കിൽ ദയവായി ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.",
+    "system.modal.notfound": "പ്രോസസ്സിംഗ് സമയത്ത് പിശക്, മോഡൽ കാണാനാകാത്തതോ കാണാനാകാത്തതോ.",
+    "system.command.limited": "ഈ കമാൻഡ് സെർവർ സ്ഥാപന സ്റ്റാഫ് മാത്രമാകുന്നു `({{അനുമതി}})`.",
+    "system.command.admin": "ഈ കമാൻഡ് ബിറ്റിയുടെ അഡ്മിനിസ്‌ട്രേറ്റേഴ്സിന് മാത്രമാകുന്നു.",
+    "system.command.error": "**പ്രോസസ്സിംഗ് സമയത്ത് പിശക്**, ദയവായി ഇത് ഞങ്ങളുടെ ഡിസ്കോർഡ് സെർവർയിൽ ഒരു പിന്തുണ ടിക്കറ്റിൽ റിപ്പോർട്ട് ചെയ്യുക.\n**പിശക് കോഡ്:** `{{ഹാഷ്}}`",
+    "system.interaction.limited": "ഈ ഇൻററാക്‌ഷൻ <@{{ഉപയോക്താവ്}}>-ക്ക് മാത്രമാണ് എന്നും, നിങ്ങൾക്ക് `{{കമാൻഡ്}}` ഉപയോഗിക്കാൻ സ്വന്തമാക്കാൻ അനുവദിക്കുന്നു.",
+    "system.bot.nopermission": "ഉപയോക്താവ്, ബിറ്റിക്ക് ഈ കമാൻ",
+
+
+    "# About command":
+    "/about - commands.about",
+    
+    "commands.about.name": "കുറിപ്പ്",
+    "commands.about.description": "ബിറ്റിയുടെ നിലവിലെ പതിപ്പിനെക്കുറിച്ച് മെറ്റാഡേറ്റ പ്രദര്ശിപ്പിക്കുന്നു.",
+    "commands.about.servers.title": "സെർവർകൾ",
+    "commands.about.servers.active": "സജീവ സെർവർകൾ",
+    "commands.about.commands.title": "കമാൻഡുകൾ",
+    "commands.about.commands.body": "കമാൻഡുകൾ",
+    "commands.about.requests.title": "പ്രോസസ്സ് ചെയ്ത അഭ്യർത്ഥനകൾ",
+    "commands.about.requests.body": "പ്രോസസ്സ് ചെയ്തു",
+    "commands.about.security": "സുരക്ഷാ പാച്ച്"
+
+
+    "# Avatar command":
+    "/avatar - commands.avatar",
+    
+    "commands.avatar.name": "അവതാർ",
+    "commands.avatar.description": "ഉപയോക്താവിന്റെ അവതാർ പ്രദർശിപ്പിക്കുന്നു.",
+    "commands.avatar.args:user.description": "ഒരു സാധുവായ ഉപയോക്താവ് നൽകുക.",
+    "commands.avatar.preview": "അവതാർ പ്രിവ്യൂ"
+    
+
+    "# Clear command":
+    "/clear - commands.clear",
+
+    "commands.clear.name": "ശുദ്ധി",
+    "commands.clear.description": "ഒരു സമയത്ത് 100 സന്ദേശങ്ങൾ ശുദ്ധിച്ചിരിക്കുന്നു.",
+    "commands.clear.args:count.description": "നിങ്ങൾ എത്ര സന്ദേശങ്ങൾ മായ്ക്കണം എന്ന് ഒരു അളവ് നൽകുക.",
+    "commands.clear.error.parse": "പിശക്, ഞങ്ങൾ അളവ് വായിക്കാൻ കഴിയാത്തതാക്കി, ദയവായി മാത്രമെ സംഖ്യകൾ (1-100) നൽകുക.",
+    "commands.clear.error.big": "പിശക്, നിങ്ങൾ 100 സന്ദേശങ്ങൾ മാത്രമേ ഒരു സമയത്ത് ശുദ്ധിക്കാനുള്ളു.",
+    "commands.clear.error.small": "പിശക്, നിങ്ങൾ 1-ന് കൂടുതൽ സന്ദേശങ്ങൾ മാത്രമേ ശുദ്ധിക്കാനുള്ളു.",
+    "commands.clear.error.old": "പിശക്, 2 ആഴ്ച്ചകളുടെയും പഴയ സന്ദേശങ്ങൾ ഉണ്ടായിരിക്കുന്നു.",
+    "commands.clear.error.unknown": "പിശക്, സന്ദേശങ്ങൾ ശുദ്ധിച്ചതിലേക്ക് എന്തൊക്കെ പോയിക്കൊണ്ടുകൊണ്ട് പോയി.",
+    "commands.clear.success": "{{count}} സന്ദേശങ്ങൾ വശിഷ്ടമാക്കി."
+
+
+
+    "# Contacts command":
+    "/contacts - commands.contacts",
+
+    "commands.contacts.name": "കോൺടാക്റ്റുകൾ",
+    "commands.contacts.description": "ഉപയോഗപ്പെടുന്ന ലിങ്കുകൾ കാണിക്കുന്നു.",
+    "commands.contacts.body": "കോൺടാക്റ്റ് വിവരങ്ങൾ താഴെ പട്ടികയായി കാണിക്കാൻ കഴിയുന്നു. URL-കൾ പകരം ക്ലിക്ക് ചെയ്യുന്നത് വലതുമായിരിക്കും.",
+    "commands.contacts.buttons:invite": "ബിറ്റി ക്ഷണിക്കുക",
+    "commands.contacts.buttons:website": "ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക"
+
+
+
+    "# Devedit command":
+    "/devedit - commands.devedit",
+
+    "commands.devedit.name": "ഡെവെഡിറ്റ്",
+    "commands.devedit.description": "ഡീബഗ്ഗിംഗ് ഉപകരണം.",
+    "commands.devedit.sub:user.name": "ഉപയോക്താ൵",
+    "commands.devedit.sub:user.description": "ഇനിപ്പം: ഉപയോക്താവിനെക്കുറിച്ച് ഡീബഗ്ഗിംഗ് ഉപകരണം.",
+    "commands.devedit.sub:server.name": "സെർവർ",
+    "commands.devedit.sub:server.description": "ഇനിപ്പം: സെർവർകൾക്കുള്ള ഡീബഗ്ഗിംഗ് ഉപകരണം."
+
+    "# Disable-PBT command":
+    "/disable-pbt - commands.disablepbt",
+
+    "commands.disablepbt.name": "പിബിടി പ്രസാരം അടയ്ക്കുക",
+    "commands.disablepbt.description": "PBT പ്രസാരത്തിന്റെ ഉപയോഗം നിർമ്മിക്കുന്നത് അടയ്ക്കുന്നു.",
+
+    
+
+    "# Enable-PBT command":
+    "/enable-pbt - commands.enablepbt",
+    
+"commands.experiments.name": "പരീക്ഷണങ്ങൾ",
+"commands.experiments.description": "നിലവിലെ ഗിൽഡ് സംഘത്തിനായി പരീക്ഷണങ്ങൾ സജീവമാക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക."
+    
+
+    "# Experiments command":
+    "/experiments - commands.experiments",
+
+    "commands.experiments.name": "Experiments",
+    "commands.experiments.description": "നിലവിലെ ഗിൽഡ് സംഘത്തിനായി പരീക്ഷണങ്ങൾ സജീവമാക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക.",
+
+    
+
+    "# Help command":
+    "/help - commands.help",
+
+    "commands.help.name": "സഹായം",
+    "commands.help.description": "കമാൻഡുകളുടെ പട്ടി പ്രദർശിപ്പിക്കുന്നു.",
+    "commands.help.buttons:previous": "മുന്നറിയിക്കുക",
+    "commands.help.buttons:next": "അടുത്തത്",
+    "commands.help.general": "സാധാരണ കമാൻഡുകൾ",
+    "commands.help.image": "ചിത്ര കമാൻഡുകൾ",
+    "commands.help.utility": "ഉപയോഗിക്കുന്ന കമാൻഡുകൾ",
+    "commands.help.management": "മാനേജ്മെന്റ് കമാൻഡുകൾ"
+
+
+
+    
+
+    "# Lock command":
+    "/lock - commands.lock",
+
+    "commands.lock.name": "പിടികൂട്ടുക",
+    "commands.lock.description": "നൽകിയ റോൾക്കിനായി നൽകിയ ചാനൽ പിടികൂട്ടിക്കിടുന്നു.",
+    "commands.lock.args:channel.description": "നിങ്ങൾ പിടികൂടുന്ന ചാനൽ നൽകുക.",
+    "commands.lock.args:role.description": "നൽകിയ റോൾ അതിനായി പിടികൂടാൻ നൽകുക.",
+    "commands.lock.success.role": "യശസ്വിയായി #{{channel}} ചാനൽ @{{role}} റോൾക്കിനായി പിടിക്കപ്പെട്ടു.",
+    "commands.lock.success.everyone": "യശസ്വിയായി #{{channel}} ചാനൽ എല്ലാവരിലും പിടിക്കപ്പെട്ടു.",
+    "commands.lock.error.role": "പിശക്, @{{role}} റോൾക്കിനായി <#{{channel}}> ചാനൽ പിടിക്കാനായില്ല, ദയവായി Bitty-ക്ക് അതിനായി അനുമതികൾ ഉണ്ടായിരിക്കുന്നുവെങ്കിൽ പരിശോധിക്കുക.",
+    "commands.lock.error.everyone": "പിശക്, എല്ലാവരിലും <#{{channel}}> ചാനൽ പിടിക്കാനായില്ല, ദയവായി Bitty-ക്ക് അതിനായി അനുമതികൾ ഉണ്ടായിരിക്കുന്നുവെങ്കിൽ പരിശോധിക്കുക."
+    
+        
+
+    "# Logbit command":
+    "/logbit - commands.logbit",
+
+    "commands.logbit.name": "ലോഗ്ബിറ്റ്",
+    "commands.logbit.description": "ഡീബഗ്ഗിംഗ് ഉപകരണം.",
+    "commands.logbit.sub:errors.name": "പിശകുകൾ",
+    "commands.logbit.sub:errors.description": "അതിനെ ഉപയോഗിച്ച് പിശകുകൾ പരിശോധിക്കുക."
+
+    
+
+    "# Ping command":
+    "/ping - commands.ping",
+
+    "commands.ping.name": "പിംഗ്",
+    "commands.ping.description": "ബോട്ടിന്റെ നിലവിലെ ലേറ്റന്‍സി പ്രദർശിപ്പിക്കുന്നു.",
+    "commands.ping.latency": "ബോട്ടിന്റെ നിലവിലെ ലേറ്റന്‍സി {{latency}}ms ആണ്."
+
+    
+
+    "# Profile command":
+    "/profile - commands.profile",
+    
+    "commands.profile.name": "പ്രൊഫൈൽ",
+    "commands.profile.description": "മറ്റൊരു ഉപയോക്താവിന്റെ പ്രൊഫൈൽ കാണുക.",
+    "commands.profile.args:user.description": "സാധുവായ ഉപയോക്താവ് നൽകുക.",
+    "commands.profile.level": "അടയാളം",
+    "commands.profile.bio": "ബയോ",
+    "commands.profile.achievements": "സാധനങ്ങൾ",
+    "commands.profile.created": "സൃഷ്ടിച്ചത്",
+    "commands.profile.credits": "ക്രെഡിറ്റുകൾ"
+
+    
+
+    "# QRCode command":
+    "/qrcode - commands.qrcode",
+
+    "commands.qrcode.name": "QR കോഡ്",
+    "commands.qrcode.description": "എണ്ണമറ്റിരിക്കുന്ന QRCodes സൃഷ്ടിക്കുന്നു, 1000 പ്രതിമം പരമ്പര ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്നു.",
+    "commands.qrcode.args:text.description": "QR കോഡിലേക്ക് മാറ്റാൻ നിങ്ങൾക്ക് വേണ്ടിയാണ് ഒരു ടെക്സ്റ്റ് നൽകുക. (URL ആയാൽ അനുവദിക്കാം.)",
+    "commands.qrcode.error": "പിശക്, QR കോഡ് സൃഷ്ടിപ്പിക്കുന്ന പരമ്പര 1000 പ്രതിമം മാത്രം ഉപയോഗിക്കാൻ അനുവദിക്കുന്നു."
+
+    
+
+    "# ResetTheme command":
+    "/resettheme - commands.resettheme",
+
+    "commands.resettheme.name": "റീസെറ്റ് തീം",
+    "commands.resettheme.description": "നിലവിലെ തീം സാധനമല്ലെങ്കിൽ സിസ്റ്റത്തിൽ ബ്രേക്ക് ആയാൽ, ഇതുമായി അത് റീസെറ്റ് ചെയ്യുക.",
+    "commands.resettheme.success": "`{{theme}}` തീമിലേക്ക് തീം റീസെറ്റ് ചെയ്തു."
+
+    
+
+    "# Server-Info command":
+    "/server-info - commands.serverinfo",
+    
+    "commands.serverinfo.name": "സെർവർ-ഇൻഫോ",
+    "commands.serverinfo.description": "നിലവിലെ സെർവർ കുറിപ്പുകൾ പ്രദർശിപ്പിക്കുന്നു.",
+    "commands.serverinfo.theme": "തീമ",
+    "commands.serverinfo.owner": "സ്വനാധികാരി",
+    "commands.serverinfo.members.title": "അംഗങ്ങൾ",
+    "commands.serverinfo.members.body": "അംഗങ്ങൾ",
+    "commands.serverinfo.channels.title": "ചാനൽസ്",
+    "commands.serverinfo.channels.body": "ചാനൽസ്",
+    "commands.serverinfo.roles.title": "റോൾസ്",
+    "commands.serverinfo.roles.body": "റോൾസ്"
+
+
+    "# ServiceStatus command":
+    "/servicestatus - commands.servicestatus",
+
+    "commands.servicestatus.name": "സേർവീസ് സ്റ്റാറ്റസ്",
+    "commands.servicestatus.description": "നിലവിലിരുന്ന സേർവീസ് ഇൻസ്റ്റന്സ് പ്രദർശിപ്പിക്കുന്നു."
+
+    
+
+    "# Theme command":
+    "/themes - commands.themes",
+
+    "commands.themes.name": "തീമ",
+    "commands.themes.description": "നിലവിലെ സെർവർക്ക് ഒരു തീമിന് മാറ്റുക.",
+    "commands.themes.title": "തീമ പ്രിവ്യൂ",
+    "commands.themes.error": "ഈ തീമ് നിലവിലുണ്ട്, അതുപുനഃ പ്രയോഗിക്കുകയില്ല."
+
+    
+
+    "# Ticket command":
+    "/ticket - commands.ticket",
+
+    "commands.ticket.name": "ടിക്കറ്റ്",
+    "commands.ticket.description": "ഈ കമാൻഡ് ഉപയോഗിച്ച് ടിക്കറ്റുകൾ നിയന്ത്രിക്കുക.",
+    "commands.ticket.sub:setup.name": "സെറ്റപ്പ്",
+    "commands.ticket.sub:setup.description": "ടിക്കറ്റിങ്ങ് സിസ്റ്റത്തിന്റെ ക്രമം മാറ്റുക.",
+    "commands.ticket.sub:setup.args:channel.description": "ടിക്കറ്റ് സെന്റ്രല്‍, അപ്പോൺ ടിക്കറ്റ് സന്ദേശം അയയ്ക്കാന്‍ ആഗ്രഹിക്കുന്ന ചാനല്‍ നൽകുക.",
+    "commands.ticket.sub:setup.args:category.description": "പുതിയ ടിക്കറ്റുകൾ സൃഷ്ടിക്കാൻ ആഗ്രഹിക്കുന്ന ഒരു വർഗ്ഗം നൽകുക.",
+    "commands.ticket.sub:setup.args:role.description": "നിങ്ങളുടെ സെർവർക്കിന്റെ പിന്തുണ റോൾ നൽകുക.",
+    "commands.ticket.sub:disable.name": "അസാധ്യമാക്കു",
+    "commands.ticket.sub:disable.description": "ടിക്കറ്റിങ്ങ് സിസ്റ്റം അസാധ്യമാക്കുന്നു.",
+    "commands.ticket.sub:open.name": "തുടക്കുക",
+    "commands.ticket.sub:open.description": "ഈ കമാൻഡ് ഉപയോഗിച്ച് ഒരു ടിക്കറ്റ് തുടക്കുക.",
+    "commands.ticket.sub:open.args:reason.description": "നിങ്ങൾ ടിക്കറ്റ് തുടക്കുന്ന കാരണം നൽകുക, ഇത് സെർവർ പിന്തുണയ്ക്കുന്നു.",
+    "commands.ticket.setup.error.channel": "`ചാനല്` ആർഗ്ഗുമെന്റ് ഒരു ടെക്സ്റ്റ് ചാനലായിരിക്കണം.",
+    "commands.ticket.setup.error.category": "`വർഗ്ഗം` ആർഗ്ഗുമെന്റ് ഒരു വർഗ്ഗമായിരിക്കണം.",
+    "commands.ticket.title": "ടിക്കറ്റിംഗ് സിസ്റ്റ.",
+
+    
+
+    "# Timestamp command":
+    "/timestamp - commands.timestamp",
+
+    "commands.timestamp.name": "സ്ഥാപനമാര്‍ഗ്ഗം",
+    "commands.timestamp.description": "ഒരു നിർദ്ദേശപ്പെട്ട തീയതിയുമായി ഒരു സ്ഥാപനമാര്‍ഗ്ഗം സൃഷ്ടിക്കുന്നു.",
+    "commands.timestamp.args:date.description": "നിങ്ങളുടെ സ്ഥാപനമാര്‍ഗ്ഗംക്ക് ഒരു സാധുവായ തീയതി നൽകുക.",
+    "commands.timestamp.error": "പ്രദർശിപ്പിക്കുന്ന തീയതി അസാധുവാണ്.",
+    "commands.timestamp.success": "നിങ്ങളുടെ സ്ഥാപനമാര്‍ഗ്ഗം വിജയകരമായി സൃഷ്ടിച്ചിരിക്കുന്നു: {{timestamp}}."
+
+    
+
+    "# Unlock command":
+    "/unlock - commands.unlock",
+
+    "commands.unlock.name": "അൺലോക്ക്",
+    "commands.unlock.description": "നിർദ്ദേശിച്ച ചാനൽ അനലോക്ക് ചെയ്യുന്നു.",
+    "commands.unlock.args:channel.description": "അനലോക്ക് ചെയ്യാൻ ആഗ്രഹിക്കുന്ന ഒരു ചാനല്‍ നൽകുക.",
+    "commands.unlock.args:role.description": "അനലോക്ക് ചെയ്യാൻ ആഗ്രഹിക്കുന്ന റോൾ നൽകുക.",
+    "commands.unlock.success.role": "@{{role}} റോൾ കയറ്റാൻ #{{channel}} ചാനല്‍ വിജയകരമായി അൺലോക്ക് ചെയ്തു.",
+    "commands.unlock.success.everyone": "അനലോക്ക് ചെയ്തു, എല്ലാവര്‍ക്കും #{{channel}} ചാനല്‍ വിജയകരമായി അൺലോക്ക് ചെയ്തു.",
+    "commands.unlock.error.role": "പിഴവ്, റോൾ @{{role}} ചാനല്‍ <#{{channel}}> അനലോക്ക് ചെയ്യുന്നതില്‍ പിഴവായി, ദയവായി Bitty-ക്ക് അനലോക്ക് ചെയ്യാനുള്ള അനുമതികളുണ്ടോ എന്ന് പരിശോധിക്കുക.",
+    "commands.unlock.error.everyone": "പിഴവ്, എല്ലാവര്‍ക്കും ചാനല്‍ <#{{channel}}> അനലോക്ക് ചെയ്യുന്നതില്‍ പിഴവായി, ദയവായി Bitty-ക്ക് അനലോക്ക് ചെയ്യാനുള്ള അനുമതികളുണ്ടോ എന്ന് പരിശോധിക്കുക."
+
+    
+
+    "# Update-Bio command":
+    "/update-bio - commands.updatebio",
+
+    "commands.updatebio.name": "അപ്ഡേറ്റ്-ബയോ",
+    "commands.updatebio.description": "ഈ കമാൻഡ് ഉപയോഗിച്ച് നിങ്ങളുടെ ബയോ (നിങ്ങളുടെ Bitty പ്രൊഫൈൽലുകൾക്ക്) പുതുക്കുക, പരമാവധി 50 അക്ഷരങ്ങൾ.",
+    "commands.updatebio.title": "പ്രൊഫൈൽ",
+    "commands.updatebio.success": "നിങ്ങളുടെ പ്രൊഫൈൽ ബയോ വിജയകരമായി പുതുക്കി.",
+    "commands.updatebio.modal.title": "നിങ്ങളുടെ ബയോ അപ്ഡേറ്റ് ചെയ്യുക",
+    "commands.updatebio.modal.input": "ബയോ (പരമാവധി 50 അക്ഷരങ്ങൾ)",
+    "commands.updatebio.modal.placeholder": "ഞാൻ {{username}}, 16 വയസ്സായി, എന്നും ഞാൻ എന്റെ ഫ്രീടൈംയിൽ ഇതുവരെ ചെയ്യുന്നു..."
+
+
+
+    "# Welcomer command":
+    "/welcome - commands.welcome",
+
+    "commands.welcome.name": "സ്വാഗതം",
+    "commands.welcome.description": "പുതിയ അംഗം ചേർക്കുമ്പോൾ സ്വാഗതം സന്ദേശം അയയ്ക്കുന്നു.",
+    "commands.welcome.args:channel.description": "സ്വാഗതം സന്ദേശങ്ങൾ പ്രദർശിപ്പിക്കാൻ നിങ്ങൾ ആവശ്യപ്പെടുന്ന ചാനൽ നൽകുക.",
+    "commands.welcome.title": "സ്വാഗതം സിസ്റ്റം",
+    "commands.welcome.disable.success": "സ്വാഗതം സിസ്റ്റം വിജയകരമായി ഓഫുചെയ്തു.",
+    "commands.welcome.setup.success": "സ്വാഗതം ചാനൽ സഫലമായി #{{channel}} എന്ന് സെറ്റ് ചെയ്തു."
+
+
+    "# Leaver command":
+    "/leave - commands.leave",
+    
+    "commands.leave.name": "അകാലി",
+    "commands.leave.description": "അംഗം പോകുമ്പോൾ അകാലി സന്ദേശം അയയ്ക്കുന്നു.",
+    "commands.leave.args:channel.description": "അകാലി സന്ദേശങ്ങൾ പ്രദർശിപ്പിക്കാൻ നിങ്ങൾ ആവശ്യപ്പെടുന്ന ചാനൽ നൽകുക.",
+    "commands.leave.title": "അകാലി സിസ്റ്റം",
+    "commands.leave.disable.success": "അകാലി സിസ്റ്റം വിജയകരമായി ഓഫുചെയ്തു.",
+    "commands.leave.setup.success": "അകാലി ചാനൽ സഫലമായി #{{channel}} എന്ന് സെറ്റ് ചെയ്തു."
+
+}
