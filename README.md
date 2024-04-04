@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This repository is archived as of 04/04/2024. Translations for v5 are no longer available and a new system will be introduced for v6. Stay tuned by joining the support server at https://discord.gg/N2kYZANbqZ/.
+
 # Translate Bitty
 Help improve Bitty's services by translating it into your own language.
 
